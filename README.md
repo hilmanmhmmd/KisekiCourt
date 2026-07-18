@@ -1,46 +1,44 @@
-# 🏀 KisekiCourt
+# KisekiCourt
 
-> Web-Based Basketball Court Booking System built with Laravel 12, Bootstrap 5, and MySQL.
-
----
-
-## Tentang Project
-
-KisekiCourt merupakan aplikasi berbasis web yang dikembangkan untuk memudahkan proses penyewaan atau booking lapangan basket secara online. Aplikasi ini menyediakan dua jenis pengguna, yaitu **Admin** dan **User**, sehingga proses pengelolaan data dan pemesanan dapat dilakukan secara lebih efisien.
-
-Project ini dibuat sebagai tugas mata kuliah **Pemrograman Web II**.
+Web-Based Basketball Court Booking System built with Laravel 12, Bootstrap 5, and MySQL.
 
 ---
 
-# Fitur
+## About Project
 
-## User
+KisekiCourt merupakan aplikasi booking lapangan basket berbasis web yang dikembangkan menggunakan Laravel 12. Aplikasi ini memudahkan pengguna melakukan booking lapangan secara online serta membantu admin dalam mengelola lapangan, jadwal, pembayaran, dan laporan transaksi.
 
-- ✅ Register & Login
-- ✅ Melihat daftar lapangan
-- ✅ Melihat jadwal yang tersedia
-- ✅ Booking lapangan basket
-- ✅ Upload bukti pembayaran
-- ✅ Melihat riwayat booking
-- ✅ Dashboard User
+Project ini dibuat sebagai tugas akhir (UAS) Mata Kuliah Pemrograman Web II.
 
 ---
 
-## Admin
+## Features
 
-- ✅ Login Admin
-- ✅ Dashboard Statistik
-- ✅ CRUD Data Lapangan
-- ✅ CRUD Jadwal
-- ✅ Melihat seluruh booking
-- ✅ Verifikasi pembayaran
-- ✅ Approve / Reject Booking
-- ✅ Laporan transaksi
-- ✅ Export PDF
+### User
+
+- Register & Login
+- Dashboard User
+- Melihat daftar lapangan
+- Melihat jadwal yang tersedia
+- Booking lapangan basket
+- Upload bukti pembayaran
+- Melihat riwayat booking
+
+### Admin
+
+- Login Admin
+- Dashboard Admin
+- CRUD Data Lapangan
+- CRUD Jadwal
+- Manajemen Booking
+- Verifikasi Pembayaran
+- Approve / Reject Booking
+- Laporan Transaksi
+- Export PDF
 
 ---
 
-# Built With
+## Technologies
 
 - Laravel 12
 - PHP 8.2
@@ -52,9 +50,9 @@ Project ini dibuat sebagai tugas mata kuliah **Pemrograman Web II**.
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
-```
+```text
 app/
 bootstrap/
 config/
@@ -67,51 +65,51 @@ storage/
 
 ---
 
-# Screenshots
+## Screenshots
 
-## Landing Page
+### Landing Page
 
-![Landing Page](public/screenshots/landing-page.png)
-
----
-
-## Login
-
-![Login](public/screenshots/login.png)
+![Landing Page](./public/screenshots/landing-page.png)
 
 ---
 
-## Register
+### Login
 
-![Register](public/screenshots/register.png)
-
----
-
-## Dashboard Admin
-
-![Dashboard Admin](public/screenshots/dashboard-admin.png)
+![Login](./public/screenshots/login.png)
 
 ---
 
-## Dashboard User
+### Register
 
-![Dashboard User](public/screenshots/dashboard-user.png)
-
----
-
-## Booking Lapangan
-
-![Booking](public/screenshots/booking.png)
+![Register](./public/screenshots/register.png)
 
 ---
 
-## Laporan
+### Dashboard Admin
 
-![Laporan](public/screenshots/laporan.png)
+![Dashboard Admin](./public/screenshots/dashboard-admin.png)
 
 ---
 
-# Installation
+### Dashboard User
+
+![Dashboard User](./public/screenshots/dashboard-user.png)
+
+---
+
+### Booking
+
+![Booking](./public/screenshots/booking.png)
+
+---
+
+### Report
+
+![Report](./public/screenshots/laporan.png)
+
+---
+
+## Installation
 
 Clone repository
 
@@ -143,7 +141,7 @@ Generate application key
 php artisan key:generate
 ```
 
-Konfigurasi database pada file **.env**
+Konfigurasi database pada file `.env`
 
 ```env
 DB_DATABASE=kisekicourt
@@ -167,13 +165,13 @@ php artisan serve
 
 Buka browser
 
-```
+```text
 http://127.0.0.1:8000
 ```
 
 ---
 
-# Developer
+## Developer
 
 **Muhammad Hilman Akhyar**
 
@@ -183,20 +181,20 @@ Program Studi Teknik Informatika
 
 ---
 
-# Mata Kuliah
+## Course
 
 Pemrograman Web II
 
 ---
 
-# License
+## License
 
-Project ini dibuat untuk keperluan pembelajaran dan tugas akademik.
+Project ini dibuat untuk memenuhi tugas akhir (UAS) mata kuiah Pemrograman Web 2.
 
 ---
 
-## Terima Kasih
+## Thank You
 
-Terima kasih telah mengunjungi repository **KisekiCourt**.
+Terima kasih telah mengunjungi repository KisekiCourt.
 
 Semoga project ini dapat menjadi referensi dalam pengembangan aplikasi booking berbasis Laravel.
