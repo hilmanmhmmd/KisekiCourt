@@ -116,7 +116,7 @@ storage/
 Clone repository
 
 ```bash
-git clone https://github.com/USERNAME/KisekiCourt.git
+git clone https://github.com/hilmanmhmmd/KisekiCourt.git
 ```
 
 Masuk ke folder project
