@@ -69,43 +69,43 @@ storage/
 
 ### Landing Page
 
-![Landing Page](./public/screenshots/landing-page.png)
+![Landing Page](./public/screenshot/landing-page.png)
 
 ---
 
 ### Login
 
-![Login](./public/screenshots/login.png)
+![Login](./public/screenshot/login.png)
 
 ---
 
 ### Register
 
-![Register](./public/screenshots/register.png)
+![Register](./public/screenshot/register.png)
 
 ---
 
 ### Dashboard Admin
 
-![Dashboard Admin](./public/screenshots/dashboard-admin.png)
+![Dashboard Admin](./public/screenshot/dashboard-admin.png)
 
 ---
 
 ### Dashboard User
 
-![Dashboard User](./public/screenshots/dashboard-user.png)
+![Dashboard User](./public/screenshot/dashboard-user.png)
 
 ---
 
 ### Booking
 
-![Booking](./public/screenshots/booking.png)
+![Booking](./public/screenshot/booking.png)
 
 ---
 
 ### Report
 
-![Report](./public/screenshots/laporan.png)
+![Report](./public/screenshot/laporan.png)
 
 ---
 
